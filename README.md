@@ -24,22 +24,26 @@ The following libraries are used in this notebook:
 
 ## Usage
 1. Clone the Repository
+   ```bash
    git clone https://github.com/Vasundara05/Stock-Price-Prediction.git
    
 2. Navigate to the Notebooks Directory
+   ```bash
    cd stock-price-prediction/notebooks
    
 3. Install Required Packages
-   Make sure to install the required libraries by running:
+   - Make sure to install the required libraries by running:
+   ```bash
    pip install numpy pandas yfinance matplotlib scikit-learn
 
 4. Open the Notebook
-   Launch Jupyter Notebook and open the SPLinearRegression.ipynb file:
+   - Launch Jupyter Notebook and open the SPLinearRegression.ipynb file:
+   ```bash
    jupyter notebook SPLinearRegression.ipynb
 
 5. Update Ticker Symbol if required
-   In the notebook, find the cell where the ticker symbol is specified (e.g., ticker = 'GOOGL').
-   Replace 'GOOGL' with the ticker symbol of the company you want to analyze (e.g., 'MSFT' for Microsoft)
-   
+   - In the notebook, find the cell where the ticker symbol is specified (e.g., ticker = 'GOOGL').
+   - Replace 'GOOGL' with the ticker symbol of the company you want to analyze (e.g., 'MSFT' for Microsoft)
+
 6.Run the Notebook
-   Execute all cells in the notebook to fetch data for the new ticker, preprocess the data, train the Linear Regression model, and evaluate its performance.
+   - Execute all cells in the notebook to fetch data for the new ticker, preprocess the data, train the Linear Regression model, and evaluate its performance.
