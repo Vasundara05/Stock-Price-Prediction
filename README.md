@@ -18,14 +18,11 @@ Linear Regression:-Linear Regression is a simple yet powerful algorithm used for
 The following libraries are used in this notebook:
 - NumPy: For numerical operations and array handling.
 - Pandas: For data manipulation and analysis.
-- yFinance**: For downloading stock price data.
+- yFinance: For downloading stock price data.
 - Matplotlib: For creating visualizations.
 - Scikit-Learn: For implementing the Linear Regression model and evaluation metrics.
 
-## Requirements
-
-
-##Usage 
+## Usage
 1. Clone the Repository
    git clone https://github.com/Vasundara05/Stock-Price-Prediction.git
    
@@ -42,7 +39,7 @@ The following libraries are used in this notebook:
 
 5. Update Ticker Symbol if required
    In the notebook, find the cell where the ticker symbol is specified (e.g., ticker = 'GOOGL').
-   Replace 'GOOGL' with the ticker symbol of the company you want to analyze (e.g., 'MSFT' for Microsoft).
-
+   Replace 'GOOGL' with the ticker symbol of the company you want to analyze (e.g., 'MSFT' for Microsoft)
+   
 6.Run the Notebook
    Execute all cells in the notebook to fetch data for the new ticker, preprocess the data, train the Linear Regression model, and evaluate its performance.
