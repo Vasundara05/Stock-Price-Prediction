@@ -11,7 +11,7 @@ Currently, the models are demonstrated using Google stock data, but they can be 
 ## Flexibility
 The models provided in this repository are designed to be easily adaptable. You can replace the ticker symbol used in the code to predict the stock prices of any other company. 
 
-###Linear Regression
+## Linear Regression
 Linear Regression is a simple yet powerful algorithm used for predicting continuous values based on the relationship between input features and the target variable.
 
 ## Contents
